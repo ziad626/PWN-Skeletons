@@ -1,4 +1,4 @@
-### PWN Skeletons
+# PWN Skeletons
 
 ## What is it
 it is a simple github repo that has a bit of skeletons of famous exploits used in ctfs you can copy past and edit values as your case need and it is for 64bit may be i add for 32bit changes are not that big but in something there is diffrence it is not complete i will add other skeletons in future and the word write means that you dont have /bin/sh and it doesnot cover everything
